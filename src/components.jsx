@@ -1,4 +1,4 @@
-import {hello, fahrenheitToCelsius, convertFeet2Acre} from './functions.js';
+import {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time} from './functions.js';
 
 function Question1(){
     return <section>
@@ -30,4 +30,15 @@ function Question3(){
         <p>convertFeet2Acre(65000) == "{convertFeet2Acre(65000)}"</p>
     </section>;
 }
-export {Question1, Question2, Question3}
+
+function Question4(){
+    return <section>
+4. Write a program that converts square feet to acres.
+        <h2>results</h2>
+        <p>convertMetre2time(10, 15, 3) == "{convertMetre2time(10, 15, 3)}"</p>
+        <p>convertMetre2time(20, 20, 3) == "{convertMetre2time(20, 20, 3)}"</p>
+        <p>convertMetre2time(40, 40, 3) == "{convertMetre2time(40, 40, 3)}"</p>
+    </section>;
+}
+
+export {Question1, Question2, Question3, Question4}

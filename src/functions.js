@@ -12,4 +12,10 @@ function convertFeet2Acre(squareFeet){
     return Acre;
 }
 
-export {hello, fahrenheitToCelsius, convertFeet2Acre}
+function convertMetre2time(Width, Length, mowRate){
+    let lawnArea = Width * Length;
+    let mowMintues = lawnArea / mowRate;
+    return mowMintues;
+}
+
+export {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time}
