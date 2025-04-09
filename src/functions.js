@@ -41,4 +41,21 @@ function Airquality2Descript(AQI)
     return airDescript;
 }
 
-export {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript}
+function number2Yeeha(integer) 
+{
+    let strings;
+    if(integer % 3 === 0 && integer % 7 === 0 ){
+        strings = "Yee Ha";
+    }else if(integer % 3 === 0 ){
+        strings = "Yee";
+    }else if (integer % 7 === 0 ){
+        strings = "Ha";
+    }  else {  // invalid inputs
+        strings = "Nada";
+    }
+    return strings;
+}
+
+
+
+export {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript, number2Yeeha}
