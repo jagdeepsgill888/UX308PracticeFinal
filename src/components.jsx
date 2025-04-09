@@ -1,4 +1,4 @@
-import {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript, number2Yeeha} from './functions.js';
+import {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript, number2Yeeha, CalculateSlopeLine} from './functions.js';
 
 function Question1(){
     return <section>
@@ -69,4 +69,16 @@ function Question6(){
     </section>;
 }
 
-export {Question1, Question2, Question3, Question4, Question5, Question6}
+function Question7(){
+    return <section>
+    7.Compute the air quality given an air quality index
+            <h2>results</h2>
+            <p>CalculateSlopeLine(3,5,7,9)) == "{CalculateSlopeLine(3,5,7,9)}"</p>
+            <p>CalculateSlopeLine(1,3,7,11) == "{CalculateSlopeLine(1,3,7,11)}"</p>
+            <p>CalculateSlopeLine(1,4,7,5) == "{CalculateSlopeLine(1,4,7,5)}"</p>
+            
+        
+    </section>;
+}
+
+export {Question1, Question2, Question3, Question4, Question5, Question6, Question7}

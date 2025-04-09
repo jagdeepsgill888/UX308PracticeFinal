@@ -56,6 +56,9 @@ function number2Yeeha(integer)
     return strings;
 }
 
+function CalculateSlopeLine(x1, y1, x2, y2) {
+    let sline = ( y2 - y1) / ( x2 - x1);
+    return sline;
+}
 
-
-export {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript, number2Yeeha}
+export {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript, number2Yeeha, CalculateSlopeLine}
