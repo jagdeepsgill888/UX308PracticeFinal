@@ -1,4 +1,4 @@
-import {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time} from './functions.js';
+import {hello, fahrenheitToCelsius, convertFeet2Acre, convertMetre2time, Airquality2Descript} from './functions.js';
 
 function Question1(){
     return <section>
@@ -41,4 +41,19 @@ function Question4(){
     </section>;
 }
 
-export {Question1, Question2, Question3, Question4}
+function Question5(){
+    return <section>
+5.Compute the air quality given an air quality index
+        <h2>results</h2>
+        <p>Airquality2Descript(20) == "{Airquality2Descript(20)}"</p>
+        <p>Airquality2Descript(60) == "{Airquality2Descript(60)}"</p>
+        <p>Airquality2Descript(110) == "{Airquality2Descript(110)}"</p>
+        <p>Airquality2Descript(155) == "{Airquality2Descript(155)}"</p>
+        <p>Airquality2Descript(201) == "{Airquality2Descript(201)}"</p>
+        <p>Airquality2Descript(400) == "{Airquality2Descript(400)}"</p>
+        <p>Airquality2Descript(-5) == "{Airquality2Descript(-5)}"</p>
+      
+    </section>;
+}
+
+export {Question1, Question2, Question3, Question4, Question5}
